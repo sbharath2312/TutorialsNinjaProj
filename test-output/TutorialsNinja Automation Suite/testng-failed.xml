@@ -17,25 +17,6 @@
           <include name="verifyLoginWithInvalidEmailAndValidPassword"/>
         </methods>
       </class> <!-- com.tutorialsninja.qa.testcases.LoginTest -->
-      <class name="com.tutorialsninja.qa.testcases.RegisterTest">
-        <methods>
-          <include name="verifyRegisteringAccountWithExistingEmailAddress"/>
-          <include name="setup"/>
-          <include name="verifyRegisteringAccountByProvidingAllFields"/>
-          <include name="verifyRegisteringAnAccountWithMandatoryFields"/>
-          <include name="verifyRegisteringAccountWithoutFillingAnyDetails"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.tutorialsninja.qa.testcases.RegisterTest -->
-      <class name="com.tutorialsninja.qa.testcases.SearchTest">
-        <methods>
-          <include name="verifySearchWithInvalidProduct"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifySearchWithoutAnyProduct"/>
-          <include name="verifySearchWithValidProduct"/>
-        </methods>
-      </class> <!-- com.tutorialsninja.qa.testcases.SearchTest -->
     </classes>
   </test> <!-- TutorialsNinja Tests(failed) -->
 </suite> <!-- Failed suite [TutorialsNinja Automation Suite] -->
